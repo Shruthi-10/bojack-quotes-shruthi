@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background: rgb(0, 0, 86);
+  font-family: 'Domine', serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: 'Satisfy', cursive;
+  text-decoration: underline;
+  text-decoration-color: #07c0e6;
+}
+
+p {
+  color: #00203FFF;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+header,
+main,
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .content-wrapper {
+  gap: 20px;
+}
+
+.quote-block {
+  border-radius: 5px;
+  width: 100%;
+  background: #ADEFD1FF;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 5px solid maroon;
+}
+
+.gif-block {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.copyright {
+  color: #f2f1fb;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  .center-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 100%;
+    width: 100%;
+  }
+
+  .quote-block {
+    width: 45%;
+  }
+
+  .gif-block {
+    width: 48%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .quote-block {
+    width: 30%;
+  }
+
+  .gif-block {
+    width: 31.8%;
+  }
+}
